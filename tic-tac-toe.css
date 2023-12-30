@@ -1,6 +1,6 @@
 h1{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 36px;
   color: black;
 }
@@ -53,3 +53,49 @@ hr{
   border: 1px solid black;
 }
 
+#start{
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 100px;
+}
+
+#winnerResult{
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#start button{
+  font-size: 21px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: aliceblue;
+  color: green;
+  border-radius: 10px;
+  border: 0.5px solid green;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+#start button:hover{
+  cursor: pointer;
+  color: orange;
+}
+
+#winnerResult p{
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.startingGame{
+  text-align: center
+}
+
+.startingGame p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}

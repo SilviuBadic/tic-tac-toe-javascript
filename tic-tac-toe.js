@@ -6,19 +6,15 @@
 let board;
 let myTurn = 'X';
 let computersTurn = 'O';
-let currentSituation = computersTurn;
-let gameOver = false;
+let currentSituation = myTurn;
+let gameOver = true;
 
 window.onload = function(){
   setGame();
 }
 
 function setGame(){
-  board = [
-    [' ',' ',' '],
-    [' ',' ',' '],
-    [' ',' ',' ']
-  ]
+  board = [[' ',' ',' '],[' ',' ',' '],[' ',' ',' ']]
 
   // r = row && c = column
   // for every row starting index 0 and ending with 2, because we have only 3 columns we check every column index. Intersection between rows and column
@@ -59,6 +55,7 @@ function setTile(){
   board[r][c] = currentSituation;
   this.innerText = currentSituation;
 
+
   if (currentSituation === myTurn){
     currentSituation = computersTurn;
   }
@@ -71,6 +68,7 @@ function setTile(){
 
 
 function theWinnerIs(){
+
   //checking horizontally
   for (let r = 0; r < 3; r++){
     if (board[r][0] == board[r][1] && board[r][1] == board[r][2] && board[r][0] != ' '){
@@ -124,4 +122,15 @@ function theWinnerIs(){
     gameOver = true;
     return;
   }
+
 }
+
+function resetButton(){
+}
+
+function startButton(){
+  gameOver = false;
+}
+
+function computerMove(){
+ }
