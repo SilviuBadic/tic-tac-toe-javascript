@@ -32,6 +32,8 @@ hr{
   padding-bottom: 20px;
 }
 
+
+
 .horizontal-line{
   border-bottom: 4px solid green;
 
@@ -64,8 +66,8 @@ hr{
   text-align: center;
   margin: 0 auto;
   width: 200px;
-  margin-top: 20px;
 }
+
 
 #start button{
   font-size: 21px;
@@ -76,6 +78,7 @@ hr{
   border-radius: 10px;
   border: 0.5px solid green;
   font-family: 'Times New Roman', Times, serif;
+
   
 }
 
@@ -84,10 +87,21 @@ hr{
   color: orange;
 }
 
-#winnerResult p{
-  font-size: 21px;
-  font-family: 'Times New Roman', Times, serif;
+#winnerResult #winnerWho{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color:rgb(59, 27, 27);
+  letter-spacing: 2px;
 }
+
+#winnerResult #welldone{
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: green;
+}
+
 
 .startingGame{
   text-align: center
@@ -98,4 +112,10 @@ hr{
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   color: red;
+  font-style: italic;
+}
+
+.tile:hover{
+  background-color: rgb(232, 222, 222);
+  cursor: pointer;
 }

@@ -4,6 +4,7 @@
 
 
 let board;
+let noSituation = ' ';
 let myTurn = 'X';
 let computersTurn = 'O';
 let currentSituation = myTurn;
@@ -34,6 +35,8 @@ function setGame(){
       }
       tile.addEventListener("click", setTile);
       document.getElementById("board").append(tile);
+      startButton();
+      resetButton();
     } 
   }
 }
@@ -54,16 +57,9 @@ function setTile(){
 
   board[r][c] = currentSituation;
   this.innerText = currentSituation;
-
-
-  if (currentSituation === myTurn){
-    currentSituation = computersTurn;
-  }
-  else {
-    currentSituation = myTurn;
-  }
-
+  autoPlay2();
   theWinnerIs();
+ 
 }
 
 
@@ -77,6 +73,14 @@ function theWinnerIs(){
         tile.classList.add("winner");
       }
       gameOver = true;
+      document.getElementById('letstart').innerHTML = '';
+      document.getElementById('winnerWho').innerHTML = '';
+      if ( board[r][0] == myTurn){
+      document.getElementById('welldone').innerHTML = 'WELL DONE HUMAN';
+      }
+      else{
+        document.getElementById('welldone').innerHTML = 'WELL DONE PC';
+      }
       return;
     }
   }
@@ -89,6 +93,15 @@ function theWinnerIs(){
         tile.classList.add("winner");
       }
       gameOver = true;
+      document.getElementById('letstart').innerHTML = '';
+      document.getElementById('winnerWho').innerHTML = '';
+      if ( board[0][c] == myTurn){
+        document.getElementById('welldone').innerHTML = 'WELL DONE HUMAN';
+        }
+        else{
+          document.getElementById('welldone').innerHTML = 'WELL DONE PC';
+        }
+      done.style.color = 'green';
       return;
     }
   }
@@ -105,6 +118,15 @@ function theWinnerIs(){
     tile.classList.add("winner");
   
     gameOver = true;
+    document.getElementById('letstart').innerHTML = '';
+    document.getElementById('winnerWho').innerHTML = '';
+    if ( board[0][0] == myTurn){
+      document.getElementById('welldone').innerHTML = 'WELL DONE HUMAN';
+      }
+      else{
+        document.getElementById('welldone').innerHTML = 'WELL DONE PC';
+      }
+    done.style.color = 'green';
     return;
   }
 
@@ -120,17 +142,102 @@ function theWinnerIs(){
     tile.classList.add("winner");
   
     gameOver = true;
+    document.getElementById('letstart').innerHTML = '';
+    document.getElementById('winnerWho').innerHTML = '';
+    if ( board[0][2] == myTurn){
+      document.getElementById('welldone').innerHTML = 'WELL DONE HUMAN';
+      }
+      else{
+        document.getElementById('welldone').innerHTML = 'WELL DONE PC';
+      }
+    done.style.color = 'green';
     return;
   }
-
+    
 }
 
+let resetBtn = document.getElementById('resetBtn');
+let element = document.getElementById('start_game');
+let checkWinner = document.getElementById('letstart');
+
+
 function resetButton(){
+  resetBtn.addEventListener("click", setTile =>{
+    console.log('the game was reseted');
+    document.getElementById('letstart').innerHTML = '';
+    document.getElementById('winnerWho').innerHTML = '';
+    document.getElementById('welldone').innerHTML = '';
+    resetBtn.style.color = 'white';
+    resetBtn.style.backgroundColor = 'green';
+    element.style.color = 'green';
+    element.style.backgroundColor = 'aliceblue';
+    let checkWinner = document.getElementById('letstart').innerHTML = 'The game was reseted';
+    gameOver = true;
+    return;
+    })
 }
 
 function startButton(){
-  gameOver = false;
+
+  element.addEventListener("click", ()=>{
+    console.log('the game just started');
+    element.style.color = 'white';
+    element.style.backgroundColor = 'green';
+    resetBtn.style.backgroundColor = 'aliceblue';
+    resetBtn.style.color = 'green';
+    checkWinner.innerHTML = 'Please select a tile';
+    gameOver = false;
+  })
+
 }
 
-function computerMove(){
- }
+function reseting(){
+  tile2 = getElementById("tile");
+  tile2.id = r.toString() + "-" + c.toString();
+  tile2.classList.add("tile");
+  if( (r != noSituation) || (c!= noSituation)){
+    tile2 = noSituation;
+    document.getElementById("board").append(tile2);
+  }
+
+  return;
+}
+
+
+function autoPlay2(){
+
+    const randomNumber = Math.floor(Math.random()*9);
+    console.log(randomNumber);
+    if (currentSituation === myTurn){
+      if (randomNumber == 0 && document.getElementById('0-0') == ' '){
+        document.getElementById('0-0').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 1 && document.getElementById('0-1') != ' '){
+        document.getElementById('0-1').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 2 && document.getElementById('0-2') != ' '){
+        document.getElementById('0-2').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 3 && document.getElementById('1-0') != ' '){
+        document.getElementById('1-0').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 4 && document.getElementById('1-1') != ' '){
+        document.getElementById('1-1' ).innerHTML = computersTurn;
+      }
+      else if (randomNumber == 5 && document.getElementById('1-2') != ' '){
+        document.getElementById('1-2').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 6 && document.getElementById('2-0') != ' '){
+        document.getElementById('2-0').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 7 && document.getElementById('2-1') != ' '){
+        document.getElementById('2-1').innerHTML = computersTurn;
+      }
+      else if (randomNumber == 8 && document.getElementById('2-2') != ' '){
+        document.getElementById('2-2').innerHTML = computersTurn;
+      }
+    }
+    else{
+      currentSituation = myTurn;
+    }
+  }    
