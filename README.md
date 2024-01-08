@@ -28,7 +28,7 @@ the tiles will be blank again. <br>
 3 -- In case we win the game, the output will show "WELL DONE HUMAN", in case the computer wins it will be displayed "WELL DONE PC", else "IT'S A TIE". <br>
 
 ## Lessons Learned
-Other than working with functions, I've managed to deepen my knowledge in construction Conditional Statements, creating functionalities and relations between different functions and objects. I've learned a bit about JSON syntax, I've put some addEventListeners to work.
+It was a good project to learn more about DOM manipulations and the relation between functions. Also a good way to improve my CSS skills too.
 ## Optimizations.
 
 - DOM manipulation, functions, iterations, loops;
@@ -40,7 +40,7 @@ Other than working with functions, I've managed to deepen my knowledge in constr
 
 ## Related
 
-Here are some other related projects
+Here are some other related projects:
 
 [Portfolio](https://silviubadic.github.io/portfolio/html/index.html) 
 
