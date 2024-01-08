@@ -3,6 +3,8 @@
 # Tic-Tac-Toe
 Tic-Tac-Toe is a simple, two-player game played on a grid of 3-by-3 squares, usually drawn on a piece of paper, and can be played by people of any age.  <br><br>
 In a 3-by-3 grid game, the player who is playing "X" always goes first. Players alternate placing Xs and Os on the board until either player has three in a row, horizontally, vertically, or diagonally or until all squares on the grid are filled. If a player is able to draw three Xs or three Os in a row, then that player wins. If all squares are filled and neither player has made a complete row of Xs or Os, then the game is a draw.
+
+I wanted to customise it a bit by choosing to add two more features, such as the random choice from which the computer will place an O on the grid, and the buttons and outputs which let us manipulate the game and find the winner.
 ## Demo
 You can check out the live version here:
 https://silviubadic.github.io/tic-tac-toe-javascript/index.html
