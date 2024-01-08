@@ -1,8 +1,8 @@
 
 
 # Tic-Tac-Toe
-Tic-Tac-Toe is a simple, two-player game played on a grid of 3-by-3 squares, usually drawn on a piece of paper. The goal of tic-tac-toe is to be the first player to get three in a row. If the game ends and there is no winner, then there will be a tie. 
-
+Tic-Tac-Toe is a simple, two-player game played on a grid of 3-by-3 squares, usually drawn on a piece of paper, and can be played by people of any age.  <br><br>
+In a 3-by-3 grid game, the player who is playing "X" always goes first. Players alternate placing Xs and Os on the board until either player has three in a row, horizontally, vertically, or diagonally or until all squares on the grid are filled. If a player is able to draw three Xs or three Os in a row, then that player wins. If all squares are filled and neither player has made a complete row of Xs or Os, then the game is a draw.
 ## Demo
 You can check out the live version here:
 https://silviubadic.github.io/tic-tac-toe-javascript/index.html
@@ -20,10 +20,10 @@ https://silviubadic.github.io/tic-tac-toe-javascript/index.html
 
 ## Features
 
-1 -- The main objects of the game (my hands). Three buttons (left - rock, middle - paper, right - scissors). <br>
-2 -- The result represented by two small thumbnails. My choice vs. computer's choices. <br>
-3 -- The outputs represented by: a text calling the winner, a text representing competitors choices, a text that numbers the winns, losses and ties throughout the game. <br>
-4 -- Two features which add a bit of complexity to the game: Autoplay, my choices being randomly chosen by the computer. One reset button which resets the score whenever we press the button. <br>
+1 -- The main 3-by-3 grid where the players successively place Xs and Os until the game ends.<br>
+2 -- We can't start the game without pressing the Start button. Also, in case we want to reset the game, we can refresh the page or just press the Reset button and 
+the tiles will be blank again. <br>
+3 -- In case we win the game, the output will show "WELL DONE HUMAN", in case the computer wins it will be displayed "WELL DONE PC", else "IT'S A TIE". <br>
 
 ## Lessons Learned
 Other than working with functions, I've managed to deepen my knowledge in construction Conditional Statements, creating functionalities and relations between different functions and objects. I've learned a bit about JSON syntax, I've put some addEventListeners to work.
