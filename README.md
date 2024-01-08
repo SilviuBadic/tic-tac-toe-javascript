@@ -29,9 +29,10 @@ the tiles will be blank again. <br>
 Other than working with functions, I've managed to deepen my knowledge in construction Conditional Statements, creating functionalities and relations between different functions and objects. I've learned a bit about JSON syntax, I've put some addEventListeners to work.
 ## Optimizations.
 
-- Applying JSON for storing and transporting data.
-- Applying event listeners using keydown event, which occurs just when we press 'R' for choosing the Rock object, 'S' for choosing the Scissors object and 'P' for Paper. This method will immediately trigger.
-- Conditional statements.
+- DOM manipulation, functions, iterations, loops;
+- Random number used to help the computer choose a tile and place it on the grid;
+- Event listeners;
+- Using of "this" keyword.
 
 
 
