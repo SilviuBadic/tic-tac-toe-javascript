@@ -1,22 +1,22 @@
 
 
 # Tic-Tac-Toe
-Tic-Tac-T
+Tic-Tac-Toe is a simple, two-player game played on a grid of 3-by-3 squares, usually drawn on a piece of paper. The goal of tic-tac-toe is to be the first player to get three in a row. If the game ends and there is no winner, then there will be a tie. 
 
 ## Demo
 You can check out the live version here:
-https://silviubadic.github.io/rock-paper-scissors-javascript/html/index.html
+https://silviubadic.github.io/tic-tac-toe-javascript/index.html
 
 ## Screenshots
-<img width="1050" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/f3d35a5c-f743-4a61-b742-5543487bc1b7">
+<img width="1050" alt="b1" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/1c323a8f-aff8-43d9-9655-fbee577b83a2">
+
 <br>
 <br>
-<img width="1050" alt="7" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/8c21a6fe-3880-429a-b119-96a501b4b381">
+<img width="1050" alt="b2" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/cde28b8a-0b65-4f80-aa93-d0ce7d50703d">
+
 <br>
 <br>
 
-
-https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/a711127a-e5f3-4175-a631-be6197021713
 
 ## Features
 
