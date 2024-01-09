@@ -4,17 +4,42 @@
 Tic-Tac-Toe is a simple, two-player game played on a grid of 3-by-3 squares, usually drawn on a piece of paper, and can be played by people of any age.  <br><br>
 In a 3-by-3 grid game, the player who is playing "X" always goes first. Players alternate placing Xs and Os on the board until either player has three in a row, horizontally, vertically, or diagonally or until all squares on the grid are filled. If a player is able to draw three Xs or three Os in a row, then that player wins. If all squares are filled and neither player has made a complete row of Xs or Os, then the game is a draw.
 
-I wanted to customise it a bit by choosing to add two more features, such as the random choice from which the computer will place an O on the grid, and the buttons and outputs which let us manipulate the game and find the winner.
+I wanted to customise it a bit by choosing to add two more features the start and reset button, as well as the output which announces if there's a winner or it's a tie.
 ## Demo
 You can check out the live version here:
-https://silviubadic.github.io/tic-tac-toe-javascript/index.html
+https://silviubadic.github.io/tic-tac-toe-javascript/
 
 ## Screenshots
-<img width="1050" alt="b1" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/1c323a8f-aff8-43d9-9655-fbee577b83a2">
+<img width="710" alt="b1" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d87d8e50-c4a9-40ab-94b9-bc71d56c8964">
 
 <br>
 <br>
-<img width="1050" alt="b2" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/cde28b8a-0b65-4f80-aa93-d0ce7d50703d">
+<img width="715" alt="b2" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d2d38a7f-5850-4cca-b063-887a596505f6">
+
+<br>
+<br>
+<img width="815" alt="b4" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/6c282023-926f-48db-80df-0b56cca169dc">
+
+<br>
+<br>
+
+
+https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/aee7a768-93fc-433f-894e-67bb5c7be10c
+
+
+<br>
+<br>
+
+
+https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/db5a055b-6768-4527-a7ae-1c5d1e9c55c5
+
+
+<br>
+<br>
+
+
+https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/09b91a24-9c7b-489a-8013-bb52bdf4046f
+
 
 <br>
 <br>
