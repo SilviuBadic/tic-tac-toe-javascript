@@ -10,28 +10,35 @@ You can check out the live version here:
 https://silviubadic.github.io/tic-tac-toe-javascript/
 
 ## Screenshots
-<img width="710" alt="b1" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d87d8e50-c4a9-40ab-94b9-bc71d56c8964">
+<img width="1050" alt="b1" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d87d8e50-c4a9-40ab-94b9-bc71d56c8964">
 
 <br>
 <br>
-<img width="715" alt="b2" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d2d38a7f-5850-4cca-b063-887a596505f6">
+<img width="1050" alt="b2" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/d2d38a7f-5850-4cca-b063-887a596505f6">
 
 <br>
 <br>
-<img width="815" alt="b4" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/6c282023-926f-48db-80df-0b56cca169dc">
-
-<br>
-<br>
-
-
-https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/aee7a768-93fc-433f-894e-67bb5c7be10c
-
+<img width="1050" alt="b4" src="https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/6c282023-926f-48db-80df-0b56cca169dc">
 
 <br>
 <br>
 
 
-https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/db5a055b-6768-4527-a7ae-1c5d1e9c55c5
+
+https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/98e25b0b-12b9-4859-8943-31be6af62aed
+
+
+
+
+<br>
+<br>
+
+
+
+https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/6ab8b07e-1170-4b2a-b431-70c7097ac435
+
+
+
 
 
 <br>
@@ -50,14 +57,13 @@ https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/09b91a24-
 1 -- The main 3-by-3 grid where the players successively place Xs and Os until the game ends.<br>
 2 -- We can't start the game without pressing the Start button. Also, in case we want to reset the game, we can refresh the page or just press the Reset button and 
 the tiles will be blank again. <br>
-3 -- In case we win the game, the output will show "WELL DONE HUMAN", in case the computer wins it will be displayed "WELL DONE PC", else "IT'S A TIE". <br>
+3 -- In case any of the opponents win the game will display let us know the winner, else it will display "It's a tie". <br>
 
 ## Lessons Learned
 It was a good project to learn more about DOM manipulations and the relation between functions. Also a good way to improve my CSS skills too.
 ## Optimizations.
 
 - DOM manipulation, functions, iterations, loops;
-- Random number used to help the computer choose a tile and place it on the grid;
 - Event listeners;
 - Using of "this" keyword.
 
