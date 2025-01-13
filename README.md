@@ -48,6 +48,14 @@ https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/6ab8b07e-
 https://github.com/SilviuBadic/tic-tac-toe-javascript/assets/130041755/09b91a24-9c7b-489a-8013-bb52bdf4046f
 
 
+
+https://github.com/user-attachments/assets/f4b7f4dc-1d4e-4369-a802-e2d88d911c7a
+
+
+https://github.com/user-attachments/assets/6a38b8fd-f691-4685-83c5-2e3f7f26cba3
+
+
+
 <br>
 <br>
 
