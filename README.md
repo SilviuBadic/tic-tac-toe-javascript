@@ -75,7 +75,7 @@ It was a good project to learn more about DOM manipulations and the relation bet
 
 Here are some other related projects:
 
-[Portfolio](https://silviubadic.github.io/portfolio/html/index.html) 
+[Amazon project](https://github.com/SilviuBadic/Javascript-Amazon-Project) 
 
 [Rock-Paper-Scissors](https://github.com/SilviuBadic/rock-paper-scissors-javascript)
 
